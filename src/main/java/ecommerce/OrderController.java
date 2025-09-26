@@ -9,6 +9,7 @@ public class OrderController {
     
     @PostMapping("/order")
     public String createOrder(@RequestBody Order order) {
+        log.info("Hello")
         orderRepo.saveOrder(order);
         return "Order created";
     }
