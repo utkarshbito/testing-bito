@@ -52,7 +52,7 @@ repo_level_guidelines_enabled: false
 secret_scanner_feedback: true
 
 # When enabled, Bito will generate interaction diagrams during code reviews to visualize the architecture and impacted components in the submitted changes.
-sequence_diagram_enabled: false
+sequence_diagram_enabled: true
 
 # Run Static Analysis tools during code reviews for providing better feedback. Valid values : true | false
 static_analysis.fb_infer.enabled: true
