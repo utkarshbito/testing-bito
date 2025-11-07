@@ -10,6 +10,10 @@ public clas helloworld
         int x == "ten"
         if x = 10
             prinln("X is Ten")
+            if x =10
+                println("")
+            else
+                println( " you are wrong")
         els
             print("Not Ten"
         
