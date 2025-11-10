@@ -1,12 +1,12 @@
 # ============================= IMPORTANT =============================
-# Rename this file to ".bito.yaml" and place it in the root of your repository's default branch (e.g., main).
+# Rename this file to ".bito.yaml" and place it in the root of your repository's source branch.
 # This will override your review settings for this particular repository.
 # For more information, please visit: https://docs.bito.ai/ai-code-reviews-in-git/agent-settings/repo-level-settings
 # =====================================================================
 
 
 # Name and path to review guidelines that you want bito to follow. 
-# These files must exist in your source branch at review time. 
+# These files must exist in your source branch at review time.
 # We accept upto 3 general guidelines and 1 language specific guideline per language.
 custom_guidelines:
   general:
@@ -25,7 +25,7 @@ exclude_draft_pr: true
 
 # Comma-separated file path GLOB patterns to exclude from code reviews.
 # Examples: "*.md, *.yaml, config/*"
-exclude_files: ""
+exclude_files: "*.xml, *.json, *.properties, .gitignore, *.yml, *.md"
 
 # Source branches for which Bito automatically reviews pull requests.
 # Comma-separated GLOB/regex patterns, e.g.: "feature/*, release/*, main"
@@ -35,6 +35,9 @@ include_source_branches: ""
 # Comma-separated GLOB/regex patterns, e.g.: "feature/*, release/*, main"
 # Use "*" to include all target branches.
 include_target_branches: ""
+
+# List of labels that, if present on a PR/MR, skip auto-review.
+labels_excluded: "bug*, feature"
 
 # Run Linting tools during code reviews. Valid values : true | false
 linters_feedback: true
@@ -46,12 +49,15 @@ post_changelist: true
 post_description: true
 
 # When enabled, Bito will automatically detect and use best-practice guidelines from agent configuration files such as CLAUDE.md, AGENTS.md, GEMINI.md, .cursor/rules, or .windsurf/rules during code reviews.
+# Valid values: true | false
 repo_level_guidelines_enabled: false
 
 # Detects and reports secrets left in code changes. Valid values : true | false
 secret_scanner_feedback: true
 
 # When enabled, Bito will generate interaction diagrams during code reviews to visualize the architecture and impacted components in the submitted changes.
+# Supported for Github and Gitlab.
+# Valid values: true | false
 sequence_diagram_enabled: true
 
 # Run Static Analysis tools during code reviews for providing better feedback. Valid values : true | false
