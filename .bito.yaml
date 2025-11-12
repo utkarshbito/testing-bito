@@ -30,7 +30,7 @@ exclude_files: ""
 # Automatically validate pull requests against Jira ticket referenced in PR description, title, or branch name.
 # Jira Integration must be completed from UI for this to work.
 # Valid values: true | false
-functional_validation_enabled: true
+functional_validation_enabled: false
 
 # Source branches for which Bito automatically reviews pull requests.
 # Comma-separated GLOB/regex patterns, e.g.: "feature/*, release/*, main"
@@ -52,7 +52,7 @@ linters_feedback: true
 # Depending on your Git provider settings, you will have to resolve all comments before merging.
 # For GitHub, this will automatically enable auto-approve for resolved PRs.
 # Valid values: true | false
-post_as_request_changes: true
+post_as_request_changes: false
 
 # Reviews will include a table listing all changed files and implemented changes. Valid values : true | false
 post_changelist: true
