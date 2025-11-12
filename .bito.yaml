@@ -41,10 +41,6 @@ include_source_branches: "*"
 # Use "*" to include all target branches.
 include_target_branches: "*"
 
-# List of labels that, if present on a PR/MR, skip automatic review. 
-# Example: "wip, do-not-review, chore, size/*"
-labels_excluded: ""
-
 # Run Linting tools during code reviews. Valid values : true | false
 linters_feedback: true
 
