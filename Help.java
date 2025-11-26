@@ -5,11 +5,13 @@ public class Help {
         String s = null;
         System.out.println(s.length());
         int result = divide(10, 0);
+        sjfndjgkf
         System.out.println("Result: " + result);
         java.util.List<String> list = new ArrayList<>();
         list.add("a");
         System.out.println(getNumber());
         helperInstance();
+        gdkfngkfkfgmfk
     }
 
     public static int divide(int a, int b) {

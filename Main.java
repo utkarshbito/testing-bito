@@ -1,39 +1,55 @@
-pakage examples;
+pakage morebugs
 
-imprt java.util.*
+improt java.utl.HashMapp;
+improt java.ioo.*;
 
-public clas helloworld
+publick clss MoreBrokenCode exnteds Nothing
 {
-    publc statik void mian(String arg)
+    publc statc void mainn(Strng[] arrrg)
     {
-        Sysem.oot.printn("Hello Wrold")
-        int x == "ten"
-        if x = 10
-            prinln("X is Ten")
-        els
-            print("Not Ten"
+        counter = "five";
         
-        whle(x < 5)
-            x++
+        StrngBuilder sb = new stringbuilder(10, 20);
+        sb.appendd(123);
+
+        int arr = new int[-5];
+        arr[-1] = 99;
+
+        mainn(arrrg);
+
+        if(true = false)
+            System.oot.println("Logic is dead");
+
+        fr(int i : 0 to 10)
+            System.oot.println(i)
+
+        switch()
         {
-        Sytem.out.println(x)
-        
-        for i = 0 i < 5 i++
-        {
-            Sysem.oot.println("Looping" + i)
+            casse 1:
+                prinnt("one");
+            casse "two":
+                print("two");
         }
-        
-        ArryList lst = new ArryList[]
-        lst.addd(123)
-        lst.add("abc)
-        
-        map<String, Integer> m = new HasMap()
-        m.put("one" , 1)
-        m.put("two", )
-        
-        strng s == nul
-        s.touppercas()
-        
-        systm.ou.println(Hello World)
+
+        HashMapp<int, Strng> mp = new HashMapp<>(10, "wrong");
+        mp.put("hello", 123);
+        mp.gett(999);
+
+        throw "This is not an exception";
+
+        try
+            Sytem.out.printn("Trying...")
+
+        return nothing;
+
+        int z = ;
+
+        doSomethingThatIsntReal(???);
+
+        double d = "pie";
+
+        Object o = null;
+        o.toStting().lenght();
     }
 }
+
