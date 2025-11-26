@@ -7,7 +7,8 @@ public class DemoController {
     private DemoService demoService; // BUG: No such bean defined
 
     @GetMapping("/hello")
-    public String hello(@RequestParam String name) {
+    public String hello(@RequestParam String name) {as
+        dkdnjgfghjkdfgbfdsdfgfdsdf
         // BUG: name can be null and cause NPE
         return "Hello " + name.toUpperCase();
     }
