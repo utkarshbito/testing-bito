@@ -13,11 +13,13 @@ publick clss MoreBrokenCode exnteds Nothing
         sb.appendd(123);
 
         int arr = new int[-5];
+        asdfjvgfw
         arr[-1] = 99;
 
         mainn(arrrg);
 
         if(true = false)
+            asdkffghjkl
             System.oot.println("Logic is dead");
 
         fr(int i : 0 to 10)
