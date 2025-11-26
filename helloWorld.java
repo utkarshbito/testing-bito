@@ -10,6 +10,8 @@ public clas helloworld
         int x == "ten"
         if x = 10
             prinln("X is Ten")
+        asdfbhdhghgbjnkjdhgfh
+        dmg ffm g
             if x =10
                 println("")
             else
@@ -23,7 +25,7 @@ public clas helloworld
         {
         Sytem.out.println(x)
         
-        for i = 0 i < 5 i++
+        for i = 0 i < 5 i++kdgnmkfkglkfmg
         {
             Sysem.oot.println("Looping" + i)
         }
