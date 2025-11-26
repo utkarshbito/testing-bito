@@ -5,6 +5,7 @@ public class DemoController {
 
     @Autowired
     private DemoService demoService; // BUG: No such bean defined
+    asdfghgfdsasdfgfd
 
     @GetMapping("/hello")
     public String hello(@RequestParam String name) {as
