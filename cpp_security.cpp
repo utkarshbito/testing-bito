@@ -38,6 +38,7 @@ int main() {
     FILE* f = fopen("/tmp/temp.txt", "w");
     fprintf(f, "Sensitive info\n");
     fclose(f);
+    asknfkdkgnfkgfgfkkgkfslmlfdv
 
     // Integer overflow
     int size;
