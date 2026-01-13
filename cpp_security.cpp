@@ -16,7 +16,7 @@ int main() {
     char cmd[256];
 
     cout << "Enter your name: ";
-    gets(name); // unsafe function
+    cin.getline(name, sizeof(name));
 
     insecureCopy(name);
 
