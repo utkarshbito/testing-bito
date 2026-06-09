@@ -1,0 +1,1 @@
+BITO-14023 faulty whitespace branch verification
